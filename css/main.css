@@ -43,18 +43,30 @@
     /* li에 플렉스하고 aline center 해도된다?? */
 }
 #mainVisual .mainBanner li h2 {
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #fff;
 }
 #mainVisual .mainBanner li h2 span {
 }
 #mainVisual .mainBanner li h2 + p {
     font-size: 20px;
+    color: #fff;
 }
 #mainVisual .mainBanner li h2 + p span {
 }
 #mainVisual .mainBanner li .more {
+    margin-top: 50px;
 }
 #mainVisual .mainBanner li .more a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #fff;
 }
 #mainVisual .btn {
     position: absolute;
@@ -450,6 +462,10 @@
     right: 5%;
     top: 50%;
     transform: translateY(-50%);
+    display: none;
+}
+.menu.on {
+    display: block;
 }
 .menu::after {
     content: '';
