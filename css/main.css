@@ -20,6 +20,8 @@
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
+
+    transition: 0.3s linear;
 }
 #mainVisual .mainBanner li:nth-child(1) {
     left: 0;
@@ -77,6 +79,10 @@
     border: 1px solid #fff;
 
     background: transparent;
+
+    z-index: 50;
+
+    cursor: pointer;
 }
 #mainVisual .btn i {
     font-size: 30px;
@@ -517,4 +523,5 @@
 }
 .menu li:hover a {
     opacity: 1;
+    color: #07255d;
 }
